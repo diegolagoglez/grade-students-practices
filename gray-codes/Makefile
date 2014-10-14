@@ -1,11 +1,11 @@
 
-dymension = 4
+dym = 4
 
 all:
 	javac Gray.java
 
 run: all
-	java Gray $(dymension)
+	java Gray $(dym)
 
 .PHONY: clean
 
